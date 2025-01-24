@@ -14,12 +14,12 @@ function SubmittedPage() {
 
         <p>Shrnutí odeslaných dat:</p>
         <ul className={classes.page_list}>
-          <li>Company Name: <strong>{parsedClientData.companyName}</strong></li>
-          <li>Company ICO: <strong>{parsedClientData.companyIco}</strong></li>
-          <li>Company Address: <strong>{parsedClientData.companyAddress}</strong></li>
-          <li>Company Phone: <strong>{parsedClientData.companyPhone}</strong></li>
-          <li>Company Email: <strong>{parsedClientData.companyEmail}</strong></li>
-          <li>Company Manager: <strong>{parsedClientData.companyManager}</strong></li>
+          <li>Název firmy: <strong>{parsedClientData.companyName}</strong></li>
+          <li>Jednatel: <strong>{parsedClientData.companyManager}</strong></li>          
+          <li>Adresa: <strong>{parsedClientData.companyAddress}</strong></li>
+          <li>Tel.číslo: <strong>{parsedClientData.companyPhone}</strong></li>
+          <li>E-mail: <strong>{parsedClientData.companyEmail}</strong></li>
+          <li>IČO: <strong>{parsedClientData.companyIco}</strong></li>
         </ul>       
         <button onClick={deleteClientData}>Vyplnit znovu</button>
       </div>
