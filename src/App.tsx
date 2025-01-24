@@ -37,7 +37,7 @@ function App() {
       <Routes>
             <Route
               path="/"
-              element={<ClientContactPage />}
+              element={clientData ? <Navigate to="/submitted-page" /> : <ClientContactPage />}
             />
             <Route
               path="/submitted-page"              

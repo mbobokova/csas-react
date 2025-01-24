@@ -1,0 +1,15 @@
+.page_window {
+    background-color: #2870edeb;
+    border-radius: 6px;
+    padding: 5%;
+    max-width: 1880px;
+
+}
+.page_window p {
+    text-align: left;
+    padding-left: 40px;
+}
+.page_list {
+    list-style: none;
+    text-align: left;
+}
