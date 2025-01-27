@@ -1,12 +1,18 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .form_window {
     background-color: #2870edeb;
     border-radius: 6px;
-    padding: 5%;
+    padding: 3rem;
     max-width: 1880px;
 
 }
 .form_content {
-    padding: 7%;
+    padding: 2rem;
 }
 .form_row {
     display: flex;
